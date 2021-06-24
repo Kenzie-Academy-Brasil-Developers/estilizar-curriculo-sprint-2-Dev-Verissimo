@@ -6,15 +6,27 @@
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+	
+	
+}
+#headshot img {
+	border-radius: 200px;
+	/* width: 100%; */
+	min-width: 120px;
+	max-width: 200px;
+	max-height: 120px;
 }
 
 #name {
-	float: left;
+	margin-left: 70px;
+	/* float: left; */
+	display: flex;
+	flex-flow: column nowrap;
 }
 
-#contactDetails {
+/* #contactDetails {
 	float: right;
-}
+} */
 
 .sectionTitle {
 	float: left;
@@ -24,4 +36,91 @@
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+
+
+/* -----------------começa aqui--------------------- */
+
+html{
+	font-family: 'Helvetica' ,sans-serif ;
+
+}
+
+body{
+	font-family: 'Lato' ,sans-serif ;
+	background-color: #f3f3f3;
+
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+h1, h2 , .sectionTitle p{
+	color: #444444;
+}
+
+.color2 {
+	color: #181818;
+}
+
+.mainDetails{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+
+	border-bottom: 2px solid #cf8a05;
+	margin-bottom: 25px;
+}
+
+/* #contactDetails{
+	margin-left: 30%;
+} */
+/* section{
+	border: 2px solid red;
+} */
+
+#flex{
+	display: flex;
+}
+
+
+#mainArea .sectionTitle h1,#mainArea .sectionTitle h2{
+	color: #cf8a05;
+	font-family: 'Arial', sans-serif;
+}
+
+.sectionContent ul{
+	display: flex;
+	justify-content: space-evenly;
+	flex-flow: column wrap;
+	max-height: 52px;
+	
+}
+
+.sectionContent ul li{
+	list-style: none;
+	height:10px;
+	margin-bottom: 7px;
+	margin-right: 12px;
+}
+
+@media (max-width: 500px){
+	body{
+		font-size: small;
+		margin: 10px;
+	}
+	#mainArea section {
+		display: flex;
+		flex-flow: column wrap;
+	}
+	#mainArea section > div{
+		min-width: 250px;
+	}
+	/* #contactDetails ul{
+		display: none;
+	} */
+
+	h1,h2{
+		margin: 0px;
+	}
 }
