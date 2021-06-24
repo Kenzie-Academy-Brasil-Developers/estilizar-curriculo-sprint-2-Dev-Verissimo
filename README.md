@@ -1,3 +1,4 @@
+# https://kenzie-academy-brasil-developers.github.io/estilizar-curriculo-sprint-2-Dev-Verissimo/
 # Entrega: Estilizar um Currículo
 
 ## Estilizar um Currículo: Guru
