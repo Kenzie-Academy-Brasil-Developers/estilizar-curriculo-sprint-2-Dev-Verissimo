@@ -104,6 +104,10 @@ h1, h2 , .sectionTitle p{
 	margin-right: 12px;
 }
 
+ul{
+	list-style: none;
+}
+
 @media (max-width: 500px){
 	body{
 		font-size: small;
@@ -119,9 +123,6 @@ h1, h2 , .sectionTitle p{
 	/* #contactDetails ul{
 		display: none;
 	} */
-	ul{
-		list-style: none; 
-	}
 
 	h1,h2{
 		margin: 0px;
