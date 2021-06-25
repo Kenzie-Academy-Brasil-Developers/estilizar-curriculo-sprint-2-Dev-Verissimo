@@ -55,7 +55,7 @@ body{
 	margin-right: 200px;
 }
 
-h1, h2 , .sectionTitle p{
+h1, h2 ,h3, .sectionTitle p{
 	color: #444444;
 }
 
@@ -72,9 +72,7 @@ h1, h2 , .sectionTitle p{
 	margin-bottom: 25px;
 }
 
-/* #contactDetails{
-	margin-left: 30%;
-} */
+
 /* section{
 	border: 2px solid red;
 } */
@@ -108,6 +106,10 @@ ul li{
 	list-style: none;
 }
 
+section{
+	border-bottom:  1px #dedede solid;
+}
+
 @media (max-width: 500px){
 	body{
 		font-size: small;
@@ -124,7 +126,7 @@ ul li{
 		display: none;
 	} */
 
-	h1,h2{
+	h1,h2,h3{
 		margin: 0px;
 	}
 }
