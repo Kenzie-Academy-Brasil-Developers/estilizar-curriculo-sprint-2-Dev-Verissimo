@@ -24,9 +24,9 @@
 	flex-flow: column nowrap;
 }
 
-/* #contactDetails {
-	float: right;
-} */
+#contactDetails {
+	color: #181818;
+}
 
 .sectionTitle {
 	float: left;
